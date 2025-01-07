@@ -4,5 +4,7 @@ deployment:
     - export DEPLOYPATH=/home/cqdjyhrb/public_html/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp .cpanel.yml $DEPLOYPATH
-    - /bin/cp -R webfonts assets css js $DEPLOYPATH
-    
+    - /bin/cp -R webfonts $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
