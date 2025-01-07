@@ -3,6 +3,7 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/cqdjyhrb/public_html/
     - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp style.css $DEPLOYPATH
     - /bin/cp .cpanel.yml $DEPLOYPATH
     - /bin/cp -R webfonts $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
